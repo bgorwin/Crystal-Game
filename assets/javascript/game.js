@@ -26,8 +26,8 @@ $('#numberLosses').text(losses);
 //////////// Get the game to reset after win or lose //////////
 
 function reset(){
-      Random = Math.floor(Math.random() * 101 + 19);
-      console.log(Random)
+      computerGuess = Math.floor(Math.random() * 101 + 19);
+      console.log(computerGuess)
       $('#randomComputer').text(computerGuess);
       redRuby = Math.floor(Math.random() * 11 + 1);
       greenRuby  = Math.floor(Math.random() * 11 + 1);
@@ -48,7 +48,7 @@ function lose(){
 
   losses++;
   $('#numberLosses').text(losses);
-  reset()
+  reset();
 };
 
 ////////// Clicks for Ruby's and to update the added value for each click ///////
