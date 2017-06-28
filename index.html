@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.js"
+  	integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
+  	crossorigin="anonymous"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+</head>
+<body background="assets/images/background.png">
+	<div class="header">
+		<h1>Crystal Collector</h1>
+	</div>
+	
+	<div class="howToBox">
+		<h3 id="rules">Here's how you play the game</h3>
+		
+		<ul class="ul">
+			<li>You will be given a random number at the start of the game.</li>
+			
+			<li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+
+			<li>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</li>
+
+			<li>The value of each crystal is hidden from you until you click on it.</li>
+
+			<li>Each time when the game starts, the game will change the values of each crystal.</li>
+		</ul>
+	</div> 
+
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomComputer"></span>
+		</h2>
+	</div>
+
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+
+	<div class="crystalBox">
+		<img id="redRuby" src="assets/images/red.png"  alt="Red Crystal">
+		<img id="greenRuby" src="assets/images/green.png"  alt="Green Crystal">
+		<img id="orangeRuby" src="assets/images/orange.png" alt="Orange Crystal">
+		<img id="tealRuby" src="assets/images/teal.png"  alt="Teal Crystal">
+	</div>
+
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+
+<script src="assets/javascript/game.js"></script></div>
+</body>
+</html>
