@@ -1,35 +1,59 @@
 body {
-	width: 500px;
-	height: 500px;
+	margin-left: 20%;
+	margin-right: 10%;
 	font-family: 'Titillium Web', sans-serif;
 }
 
-.ul {
+.ul li {
 	font-size: 12px;
 }
 
-.header {
-	border: 1px solid black;
-	border-radius: 5px;
-	width: 400px;
+header {
 	text-align: center;
-	background-color: white;
+	margin-right: 17%;
+	font-size: 25px;
+	color: white;
+}
+
+h2 {
+	margin-top: 15px;
+}
+
+.container {
+	margin: 20px;
+	height: auto;
+}
+
+.header {
+	/*border: 1px solid black;*/
+	font-size: 30px;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	background-color: transparent;
+	color: white;
 }
 
 .howToBox {
 	border: 1px solid black;
 	border-radius: 5px;
-	width: 400px;
-	margin-top: 10px;
+	width: 50%;
+	margin-top: 15px;
 	background-color: white;
+	float: left;
 }
 
 #rules {
 	text-align: center;
 }
 
+.mainContentBox {
+	float: left;
+	margin-left: 5%;
+}
+
 .numberToMatch {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 5px;
 	text-align: center;
 	width: 230px;
@@ -38,21 +62,24 @@ body {
 }
 
 .winsAndLosses {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 5px;
 	width: 150px;
 	margin-top: 10px;
 	text-align: center;
-	background-color: white;	
+	background-color: white;
+	float: left;
+	/*margin-left: 25%;*/
 }
 
 .crystalBox {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 5px;
 	width: 230px;
 	margin-top: 10px;
 	text-align: center;
-	background-color: white;
+	float: left;
+	/*background-color: white;*/
 }
 
 .userTotal {
