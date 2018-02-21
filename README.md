@@ -13,3 +13,5 @@
 
   <li>Each time when the game starts, the game will change the values of each crystal.</li>
 </ul>
+
+<h4>To view this application, please click the link https://bgorwin.github.io/Crystal-Game/ </h4>
